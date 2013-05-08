@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Real Estate</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no"/>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<!-- Stylesheet  -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<!-- Jquery Start  -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Rating Star  -->
+<script type="text/javascript" src="js/jquery.rateit.js"></script>
+<!-- Navigation  -->
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
+<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+<!-- Hover Effect  -->
+<script type="text/javascript" src="js/jquery.hoverIntent.minified.js"></script>
+<!-- Easing  -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!-- Camera Slider  -->
+<script type="text/javascript" src="js/camera.js"></script>
+<!-- Accordion  -->
+<script type="text/javascript" src="js/accordion.js"></script>
+<!-- Tabs  -->
+<script type="text/javascript" src="js/tabs.js"></script>
+<!-- Carsoule  -->
+<script type="text/javascript" src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<!-- A gallery optimized for touch devices  -->
+<script type="text/javascript" src="js/touchTouch.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<!-- forms  -->
+<script type="text/javascript" src="js/forms.js"></script>
+<!-- Portfolio -->
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="js/filter_setting.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="js/custom.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+  	$(window).load( function(){	
+	  jQuery('.magnifier').touchTouch();								
+    });
+</script>
+<!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+   	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<!--============================== Header ================================-->
+<header class="pad0">
+  <div class="container_12">
+    <!-- Logo  -->
+    <div class="grid_12">
+      <h1><a href="index.html"><img src="images/logo.png" alt="Real Estate"></a> </h1>
+      <!-- Navigation  -->
+      <div class="menu_block">
+        <nav>
+          <ul class="sf-menu">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="#">Properties</a>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="search.html">Search Page</a></li>
+                <li><a href="rent.html">For Rent</a></li>
+                <li><a href="sale.html">For Sale</a></li>
+                <li><a href="#">All Properties</a>
+                  <ul>
+                    <li><a href="all-2column.html">Style 1</a></li>
+                    <li><a href="all-3column.html">Style 2</a></li>
+                  </ul>
+                </li>
+                <li><a href="agent.html">Agents</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="#">Portfolio </a>
+                  <ul>
+                    <li><a href="portfolio2.html">Portfolio 2</a></li>
+                    <li><a href="portfolio3.html">Portfolio 3</a></li>
+                    <li><a href="portfolio4.html">Portfolio 4</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="current"><a href="#">Elements</a>
+              <ul>
+                <li><a href="elements.html">Elements</a></li>
+                <li><a href="price-layouts.html">Price</a></li>
+                <li><a href="column.html">Column Layouts</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Blog</a>
+              <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blog-single.html">Blog Single</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- top image  -->
+<div class="row-1">
+  <div class="container_12">
+    <!-- Search  -->
+    <div class="grid_12">
+      <h2>Elements</h2>
+    </div>
+  </div>
+</div>
+<!-- top search  -->
+<div class="row-2">
+  <div class="container_12">
+    <!-- Search  -->
+    <div class="grid_12">
+      <form id="form5" class="form1-1 form2" method="post">
+        <div class="fix-w">
+          <label class="text"> <span>City, State: </span> </label>
+          <label class="input">
+          <input type="text">
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>ZIP Code: </span> </label>
+          <label class="input">
+          <input type="text">
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>Max price:</span> </label>
+          <label class="select">
+          <select name="select">
+            <option value="">No Limit</option>
+            <option value="">$3000</option>
+            <option value="">$2000</option>
+            <option value="">$1000</option>
+          </select>
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>Beds:</span> </label>
+          <label class="select">
+          <select name="select">
+            <option value="">Any</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+          </label>
+        </div>
+        <div class="form-button"><a onClick="document.getElementById('form4').submit()" href="#" class="button-red">Search</a></div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--==============================content================================-->
+<div class="main_bg">
+  <section class="content">
+    <div class="container_12">
+      <!-- row 1 (List) -->
+      <div class="wrapper">
+        <div class="grid_3">
+          <h2 class="indent-1 extra">Unordered List</h2>
+          <ul class="list-style-2">
+            <li class="arrow-list"><a href="#">Arrow List - Item Label</a></li>
+            <li class="arrow-list-2"><a href="#">Arrow 2 List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Circle List - Item Label</a></li>
+            <li class="check-list"><a href="#">Check List - Item Label</a></li>
+            <li class="check-list-2"><a href="#">Check 2 List - Item Label</a></li>
+            <li class="star-list"><a href="#">Star List - Item Label</a></li>
+            <li class="plus-list"><a href="#">Plus List - Item Label</a></li>
+            <li class="dash-list"><a href="#">Dash List - Item Label</a></li>
+          </ul>
+        </div>
+        <div class="grid_3">
+          <h2 class="indent-1 extra">Service List</h2>
+          <ul class="list-style-2">
+            <li class="arrow-list"><a href="#">Arrow List - Item Label</a></li>
+            <li class="arrow-list"><a href="#">Arrow 2 List - Item Label</a></li>
+            <li class="arrow-list"><a href="#">Circle List - Item Label</a></li>
+            <li class="arrow-list"><a href="#">Check List - Item Label</a></li>
+            <li class="arrow-list"><a href="#">Check 2 List - Item Label</a></li>
+            <li class="arrow-list"><a href="#">Star List - Item Label</a></li>
+            <li class="arrow-list"><a href="#">Plus List - Item Label</a></li>
+            <li class="arrow-list"><a href="#">Dash List - Item Label</a></li>
+          </ul>
+        </div>
+        <div class="grid_3">
+          <h2 class="indent-1 extra">Feature List</h2>
+          <ul class="list-style-2">
+            <li class="circle-list"><a href="#">Arrow List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Arrow 2 List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Circle List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Check List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Check 2 List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Star List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Plus List - Item Label</a></li>
+            <li class="circle-list"><a href="#">Dash List - Item Label</a></li>
+          </ul>
+        </div>
+        <div class="grid_3">
+          <h2 class="indent-1 extra">Ordered List</h2>
+          <ol class="list-style-1">
+            <li><a href="#">Arrow List - Item Label</a></li>
+            <li><a href="#">Arrow 2 List - Item Label</a></li>
+            <li><a href="#">Circle List - Item Label</a></li>
+            <li><a href="#">Check List - Item Label</a></li>
+            <li><a href="#">Check 2 List - Item Label</a></li>
+            <li><a href="#">Star List - Item Label</a></li>
+            <li><a href="#">Plus List - Item Label</a></li>
+            <li><a href="#">Dash List - Item Label</a></li>
+          </ol>
+        </div>
+      </div>
+      <!-- row 2 (social icon) -->
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Social Icons</h2>
+          </div>
+          <ul class="tooltip-demo" id="social">
+            <li><a href="#" title="Apple" rel="tooltip"><img src="images/social_icons/apple.png" alt="Apple"></a></li>
+            <li><a href="#" title="Blogger" rel="tooltip"><img src="images/social_icons/blogger.png" alt="Blogger"></a></li>
+            <li><a href="#" title="Deviantart" rel="tooltip"><img src="images/social_icons/deviantart.png" alt="Deviantart"></a></li>
+            <li><a href="#" title="Digg" rel="tooltip"><img src="images/social_icons/digg.png" alt="Digg"></a></li>
+            <li><a href="#" title="Dribbble" rel="tooltip"><img src="images/social_icons/dribbble.png" alt="Dribbble"></a></li>
+            <li><a href="#" title="Facebook" rel="tooltip"><img src="images/social_icons/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#" title="StumbleUpon" rel="tooltip"><img src="images/social_icons/stumbleupon.png" alt="StumbleUpon"></a></li>
+            <li><a href="#" title="Flickr" rel="tooltip"><img src="images/social_icons/flickr.png" alt="Flickr"></a></li>
+            <li><a href="#" title="Forrst" rel="tooltip"><img src="images/social_icons/forrst.png" alt="Forrst"></a></li>
+            <li><a href="#" title="Googleplus" rel="tooltip"><img src="images/social_icons/googleplus.png" alt="Googleplus"></a></li>
+            <li><a href="#" title="Lastfm" rel="tooltip"><img src="images/social_icons/lastfm.png" alt="Lastfm"></a></li>
+            <li><a href="#" title="Mail" rel="tooltip"><img src="images/social_icons/mail.png" alt="Mail"></a></li>
+            <li><a href="#" title="Newsvine" rel="tooltip"><img src="images/social_icons/newsvine.png" alt="Newsvine"></a></li>
+            <li><a href="#" title="RSS" rel="tooltip"><img src="images/social_icons/rss.png" alt="RSS"></a></li>
+            <li><a href="#" title="Sharethis" rel="tooltip"><img src="images/social_icons/sharethis.png" alt="Sharethis"></a></li>
+            <li><a href="#" title="Skype" rel="tooltip"><img src="images/social_icons/skype.png" alt="Skype"></a></li>
+            <li><a href="#" title="Tumblr" rel="tooltip"><img src="images/social_icons/tumblr.png" alt="Tumblr"></a></li>
+            <li><a href="#" title="Twitter" rel="tooltip"><img src="images/social_icons/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#" title="Vimeo" rel="tooltip"><img src="images/social_icons/vimeo.png" alt="Vimeo"></a></li>
+            <li><a href="#" title="Wordpress" rel="tooltip"><img src="images/social_icons/wordpress.png" alt="Wordpress"></a></li>
+            <li><a href="#" title="Youtube" rel="tooltip"><img src="images/social_icons/youtube.png" alt="Youtube"></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- row 3 (button) -->
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Buttons <strong class="sub-heading">&ndash; Buttons with border </strong></h2>
+          </div>
+          <span class="button-border p1"><a class="button-red" href="#">Button RED</a></span> <span class="button-border p1"><a class="button-green" href="#">Button GREEN</a></span> <span class="button-border p1"><a class="button-red" href="#">Button BLUE</a></span> <span class="button-border p1"><a class="button-pink" href="#">Button PINK</a></span> <span class="button-border p1"><a class="button-white" href="#">Button WHITE</a></span> <span class="button-border p1"><a class="button-black" href="#">Button BLACK</a></span> </div>
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Buttons <strong class="sub-heading">&ndash; Buttons with border  Round</strong></h2>
+          </div>
+          <span class="button-border button-radius-50 p1"><a class="button-red button-radius-50" href="#">Button RED</a></span> <span class="button-border button-radius-50 p1"><a class="button-green button-radius-50" href="#">Button GREEN</a></span> <span class="button-border button-radius-50 p1"><a class="button-red button-radius-50" href="#">Button BLUE</a></span> <span class="button-border button-radius-50 p1"><a class="button-pink button-radius-50" href="#">Button PINK</a></span> <span class="button-border button-radius-50 p1"><a class="button-white button-radius-50" href="#">Button WHITE</a></span> <span class="button-border button-radius-50 p1"><a class="button-black button-radius-50" href="#">Button BLACK</a></span> </div>
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Buttons<strong class="sub-heading">&ndash; Buttons without border</strong></h2>
+          </div>
+          <a class="button-red p1" href="#">Button RED</a> <a class="button-green p1" href="#">Button GREEN</a> <a class="button-red p1" href="#">Button BLUE</a> <a class="button-pink p1" href="#">Button PINK</a> <a class="button-white p1" href="#">Button WHITE</a> <a class="button-black p1" href="#">Button BLACK</a> </div>
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Buttons <strong class="sub-heading">&ndash; Buttons without border  Round</strong></h2>
+          </div>
+          <a class="button-red button-radius-50 p1" href="#">Button RED</a> <a class="button-green button-radius-50 p1" href="#">Button GREEN</a> <a class="button-red button-radius-50 p1" href="#">Button BLUE</a> <a class="button-pink button-radius-50 p1" href="#">Button PINK</a> <a class="button-white button-radius-50 p1" href="#">Button WHITE</a> <a class="button-black button-radius-50 p1" href="#">Button BLACK</a> </div>
+      </div>
+      <!-- row 4 (Progress bars) -->
+      <div class="wrapper">
+        <div class="grid_4">
+          <div class="title">
+            <h2 class="indent-1 extra">Basic Progress bars</h2>
+          </div>
+          <p>&ndash; Default progress bar with a vertical gradient.</p>
+          <div class="progress">
+            <div style="width: 60%;" class="bar"></div>
+          </div>
+        </div>
+        <div class="grid_4">
+          <div class="title">
+            <h2 class="indent-1 extra">Striped Progress bars</h2>
+          </div>
+          <p>&ndash; Uses a gradient to create a striped effect (no IE).</p>
+          <div class="progress progress-striped">
+            <div style="width: 20%;" class="bar"></div>
+          </div>
+        </div>
+        <div class="grid_4">
+          <div class="title">
+            <h2 class="indent-1 extra">Animated Progress bars</h2>
+          </div>
+          <p>&ndash; Takes the striped example and animates it (no IE).</p>
+          <div class="progress progress-striped active">
+            <div style="width: 45%" class="bar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="grid_4">
+          <div class="title">
+            <h2 class="indent-1 extra">Additional colors</h2>
+          </div>
+          <p>&ndash; Progress bars use some of the same button and alert classes for consistent styles.</p>
+          <div class="progress progress-info">
+            <div style="width: 20%" class="bar"></div>
+          </div>
+          <div class="progress progress-success">
+            <div style="width: 40%" class="bar"></div>
+          </div>
+          <div class="progress progress-warning">
+            <div style="width: 60%" class="bar"></div>
+          </div>
+          <div class="progress progress-danger">
+            <div style="width: 80%" class="bar"></div>
+          </div>
+        </div>
+        <div class="grid_4">
+          <div class="title">
+            <h2 class="indent-1 extra">Striped bars</h2>
+          </div>
+          <p>&ndash; Similar to the solid colors, we have varied striped progress bars.</p>
+          <div class="progress progress-striped progress-info">
+            <div style="width: 20%" class="bar"></div>
+          </div>
+          <div class="progress progress-striped progress-success">
+            <div style="width: 40%" class="bar"></div>
+          </div>
+          <div class="progress progress-striped progress-warning">
+            <div style="width: 60%" class="bar"></div>
+          </div>
+          <div class="progress progress-striped progress-danger">
+            <div style="width: 80%" class="bar"></div>
+          </div>
+        </div>
+        <div class="grid_4">
+          <div class="title">
+            <h2 class="indent-1 extra">Animated</h2>
+          </div>
+          <p>&ndash; Similar to the solid colors, we have varied striped &amp; Animate progress bars.</p>
+          <div class="progress progress-striped active progress-info">
+            <div style="width: 20%" class="bar"></div>
+          </div>
+          <div class="progress progress-striped active progress-success">
+            <div style="width: 40%" class="bar"></div>
+          </div>
+          <div class="progress progress-striped active progress-warning">
+            <div style="width: 60%" class="bar"></div>
+          </div>
+          <div class="progress progress-striped active progress-danger">
+            <div style="width: 80%" class="bar"></div>
+          </div>
+        </div>
+      </div>
+      <!-- row 5 (Tabs & Accordian) -->
+      <div class="wrapper">
+        <div class="grid_6">
+          <div class="title">
+            <h2 class="indent-1 extra">Tabs</h2>
+          </div>
+          <ul class="tab-menu">
+            <li><a href="#tab1">Tab Menu One</a></li>
+            <li><a href="#tab2">Tab Menu Two</a></li>
+          </ul>
+          <div class="tab-container">
+            <div id="tab1" class="tab-content-1">
+              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. </p>
+            </div>
+            <div id="tab2" class="tab-content-1">
+              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+              <p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. </p>
+            </div>
+          </div>
+        </div>
+        <div class="grid_6">
+          <div class="title">
+            <h2 class="indent-1 extra">Accordion</h2>
+          </div>
+          <div id="accordion" class="shadow-large"> <a> <span>Success Is Fully Translation Ready!</span></a>
+            <div class="accordion-wrapper">
+              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. </p>
+              <p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <a><span>Amazing Page Builder!</span></a>
+            <div class="accordion-wrapper">
+              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+              <p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <a><span>Unlimited Number of Sliders</span></a>
+            <div class="accordion-wrapper">
+              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+            </div>
+            <a><span>Unlimited Accent Colors</span></a>
+            <div class="accordion-wrapper">
+              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row 6 (Alert Boxes) -->
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Alert Boxes</h2>
+          </div>
+        </div>
+        <div class="grid_3">
+          <p class="message-box-error"><strong>Error</strong> - Your message! </p>
+        </div>
+        <div class="grid_3">
+          <p class="message-box-success"><strong>Success</strong> - Your message! </p>
+        </div>
+        <div class="grid_3">
+          <p class="message-box-info"><strong>Info</strong> - Your message! </p>
+        </div>
+        <div class="grid_3">
+          <p class="message-box-notice"><strong>Notice</strong> - Your message! </p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="grid_6">
+          <div class="message-box fade in info"> <strong>Info: </strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+          </div>
+          <div class="message-box fade in note"> <strong>Note: </strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+          </div>
+        </div>
+        <div class="grid_6">
+          <div class="message-box fade in confirm"> <strong>Confirm:</strong> Lorem ipsum dolor sit amet, adipiscing elit.
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+          </div>
+          <div class="message-box fade in error"> <strong>Error:</strong> Lorem ipsum dolor sit amet, adipiscing elit.
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+          </div>
+        </div>
+      </div>
+      <!-- row 7 (Dropcaps) -->
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Dropcaps</h2>
+          </div>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap">1</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap2">2</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap3">3</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap4">4</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap5">5</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap6">6</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap7">7</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="grid_3">
+          <p> <span class="dropcap8">8</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+        </div>
+      </div>
+      <!-- row 8 (blockquotes) -->
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra">Blockquotes</h2>
+          </div>
+        </div>
+        <div class="grid_3">
+          <blockquote>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+          </blockquote>
+        </div>
+        <div class="grid_3">
+          <blockquote class="black">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </blockquote>
+        </div>
+        <div class="grid_3">
+          <blockquote class="blue">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </blockquote>
+        </div>
+        <div class="grid_3">
+          <blockquote class="red">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </blockquote>
+        </div>
+      </div>
+      <!-- row 9 (pagination) -->
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="title">
+            <h2 class="indent-1 extra"> Pagination <strong class="sub-heading">&ndash; The default pagination component is flexible and works in a number of variations. </strong></h2>
+          </div>
+        </div>
+        <div class="grid_3">
+          <div class="pagination">
+            <ul>
+              <li class="disabled"><a href="#">«</a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">»</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid_3">
+          <div class="pagination">
+            <ul>
+              <li><a href="#">«</a></li>
+              <li><a href="#">10</a></li>
+              <li class="active"><a href="#">11</a></li>
+              <li><a href="#">12</a></li>
+              <li><a href="#">»</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid_3">
+          <div class="pagination">
+            <ul>
+              <li><a href="#">«</a></li>
+              <li class="active"><a href="#">10</a></li>
+              <li class="disabled"><a href="#">...</a></li>
+              <li><a href="#">20</a></li>
+              <li><a href="#">»</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid_3">
+          <div class="pagination">
+            <ul>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--==============================footer=================================-->
+<footer class="main-wrapper main-wrapper-shadow">
+  <div class="footer-1">
+    <div class="container_12">
+      <div class="wrapper">
+        <!-- Text Widget & SOCIABLE -->
+        <div class="grid_3">
+          <!--Text Widget-->
+          <h2>Office Address</h2>
+          <p>Lorem ipsum dolor sit amet, secte adipisicing laoreet elit, sed do eiusmod tempor incididunt. </p>
+          <address>
+          <dl>
+            <dd><span>Phone:</span> +1 100 123 6580</dd>
+            <dd><span>Mobile:</span> +1 200 123 6035</dd>
+            <dd><span>FAX:</span> +1 300 123 989</dd>
+            <dd><span>E-mail:</span> <a href="#" class="link-1"> mail@owltemplates.com</a></dd>
+          </dl>
+          </address>
+        </div>
+        <!-- Links -->
+        <div class="grid_3">
+          <!--Text Widget-->
+          <h2>Property Types</h2>
+          <ul class="list1">
+            <li><a href="#">Single Home </a></li>
+            <li><a href="#">Family Home </a></li>
+            <li><a href="#">Apartment </a></li>
+            <li><a href="#">Villa </a></li>
+            <li><a href="#">Condo </a></li>
+            <li><a href="#">Other </a></li>
+          </ul>
+        </div>
+        <!-- Twitter Feed -->
+        <div class="grid_3 tweet">
+          <h2>Twitter Feed</h2>
+          <div class="tweets">
+            <p> Loading Tweets... </p>
+            <ul id="tweet-list">
+            </ul>
+          </div>
+        </div>
+        <!-- FLCKR PHOTOS & Tag Cloud -->
+        <div class="grid_3">
+          <!--FLCKR PHOTOS-->
+          <div class="wrapper">
+            <div class="flickr">
+              <h2>Flickr Photos</h2>
+              <script  type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08"></script>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-2">
+    <div class="container_12">
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="policy">Real-Estate - responsive theme &copy; 2013 <a href="#">Privacy Policy</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

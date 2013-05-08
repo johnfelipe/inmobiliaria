@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Real Estate</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no"/>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<!-- Stylesheet  -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<!-- Jquery Start  -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Rating Star  -->
+<script type="text/javascript" src="js/jquery.rateit.js"></script>
+<!-- Navigation  -->
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
+<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+<!-- Hover Effect  -->
+<script type="text/javascript" src="js/jquery.hoverIntent.minified.js"></script>
+<!-- Easing  -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!-- Camera Slider  -->
+<script type="text/javascript" src="js/camera.js"></script>
+<!-- Accordion  -->
+<script type="text/javascript" src="js/accordion.js"></script>
+<!-- Tabs  -->
+<script type="text/javascript" src="js/tabs.js"></script>
+<!-- Carsoule  -->
+<script type="text/javascript" src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<!-- A gallery optimized for touch devices  -->
+<script type="text/javascript" src="js/touchTouch.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<!-- forms  -->
+<script type="text/javascript" src="js/forms.js"></script>
+<!-- Portfolio -->
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="js/filter_setting.js"></script>
+<!-- Custom  -->
+<script type="text/javascript" src="js/custom.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+  	$(window).load( function(){	
+	  jQuery('.magnifier').touchTouch();								
+    });
+</script>
+<!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+   	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<!--============================== Header ================================-->
+<header class="pad0">
+  <div class="container_12">
+    <!-- Logo  -->
+    <div class="grid_12">
+      <h1><a href="index.html"><img src="images/logo.png" alt="Real Estate"></a> </h1>
+      <!-- Navigation  -->
+      <div class="menu_block">
+        <nav>
+          <ul class="sf-menu">
+            <li><a href="index.html">Home</a> </li>
+            <li class="current"><a href="#">Properties</a>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="search.html">Search Page</a></li>
+                <li><a href="rent.html">For Rent</a></li>
+                <li><a href="sale.html">For Sale</a></li>
+                <li><a href="#">All Properties</a>
+                  <ul>
+                    <li><a href="all-2column.html">Style 1</a></li>
+                    <li><a href="all-3column.html">Style 2</a></li>
+                  </ul>
+                </li>
+                <li><a href="agent.html">Agents</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="#">Portfolio </a>
+                  <ul>
+                    <li><a href="portfolio2.html">Portfolio 2</a></li>
+                    <li><a href="portfolio3.html">Portfolio 3</a></li>
+                    <li><a href="portfolio4.html">Portfolio 4</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Elements</a>
+              <ul>
+                <li><a href="elements.html">Elements</a></li>
+                <li><a href="price-layouts.html">Price</a></li>
+                <li><a href="column.html">Column Layouts</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Blog</a>
+              <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blog-single.html">Blog Single</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- top image  -->
+<div class="row-1">
+  <div class="container_12">
+    <!-- Search  -->
+    <div class="grid_12">
+      <h2>Portfolio 2</h2>
+    </div>
+  </div>
+</div>
+<!-- top search  -->
+<div class="row-2">
+  <div class="container_12">
+    <!-- Search  -->
+    <div class="grid_12">
+      <form id="form5" class="form1-1 form2" method="post">
+        <div class="fix-w">
+          <label class="text"> <span>City, State: </span> </label>
+          <label class="input">
+          <input type="text">
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>ZIP Code: </span> </label>
+          <label class="input">
+          <input type="text">
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>Max price:</span> </label>
+          <label class="select">
+          <select name="select">
+            <option value="">No Limit</option>
+            <option value="">$3000</option>
+            <option value="">$2000</option>
+            <option value="">$1000</option>
+          </select>
+          </label>
+        </div>
+        <div class="fix-w">
+          <label class="text"> <span>Beds:</span> </label>
+          <label class="select">
+          <select name="select">
+            <option value="">Any</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+          </label>
+        </div>
+        <div class="form-button"><a onClick="document.getElementById('form4').submit()" href="#" class="button-red">Search</a></div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--==============================content================================-->
+<div class="main_bg">
+  <section class="content">
+    <div class="container_12">
+      <div class="wrapper">
+        <div class=" grid_12">
+          <h2 class="fleft">All Properties</h2>
+          <!-- start Filter categories -->
+          <ul id="filter">
+            <li class="active"><a href="#" class="all">All</a></li>
+            <li><a href="#" class="openhouse">Open House</a></li>
+            <li><a href="#" class="forrent">For Rent</a></li>
+            <li><a href="#" class="forsale">For Sale</a></li>
+          </ul>
+        </div>
+        <!-- End Filter categories -->
+        <div class="clear"></div>
+        <ul  id="stage">
+          <li class="grid_6 p8" data-id="id-1" data-type="openhouse">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img1.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-2" data-type="forrent forsale">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img2.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-3" data-type="forrent">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img3.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-4" data-type="openhouse forsale forrent">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img4.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-5" data-type="forsale">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img5.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-6" data-type="forrent forsale">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img6.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-7" data-type="forrent openhouse">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img7.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-8" data-type="openhouse forsale">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img8.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-9" data-type="openhouse forrent">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img9.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-10" data-type="forsale">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img10.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 p8" data-id="id-11" data-type="openhouse">
+            <div class="inner-block box b1"> <a class="page3-img1 fixed-img magnifier" href="images/image-blank.png"><img src="images/portfolio/img11.jpg" alt=""><span></span></a>
+              <div class="port-title">
+                <div class="port-corner-top"></div>
+                <h2>Propertie Name</h2>
+                <ul class="listbox-1">
+                  <li><span>Property Type:</span><a href="#">Villa</a></li>
+                  <li><span>Address:</span><a href="#">9870 St Vincent Place</a></li>
+                  <li><span>Land Area:</span><a href="#">29000 sq.ft</a></li>
+                  <li><span>Year Built:</span><a href="#">2004</a></li>
+                  <li><span>Building Size:</span><a href="#">8000 sq.ft</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--==============================footer=================================-->
+<footer class="main-wrapper main-wrapper-shadow">
+  <div class="footer-1">
+    <div class="container_12">
+      <div class="wrapper">
+        <!-- Text Widget & SOCIABLE -->
+        <div class="grid_3">
+          <!--Text Widget-->
+          <h2>Office Address</h2>
+          <p>Lorem ipsum dolor sit amet, secte adipisicing laoreet elit, sed do eiusmod tempor incididunt. </p>
+          <address>
+          <dl>
+            <dd><span>Phone:</span> +1 100 123 6580</dd>
+            <dd><span>Mobile:</span> +1 200 123 6035</dd>
+            <dd><span>FAX:</span> +1 300 123 989</dd>
+            <dd><span>E-mail:</span> <a href="#" class="link-1"> mail@owltemplates.com</a></dd>
+          </dl>
+          </address>
+        </div>
+        <!-- Links -->
+        <div class="grid_3">
+          <!--Text Widget-->
+          <h2>Property Types</h2>
+          <ul class="list1">
+            <li><a href="#">Single Home </a></li>
+            <li><a href="#">Family Home </a></li>
+            <li><a href="#">Apartment </a></li>
+            <li><a href="#">Villa </a></li>
+            <li><a href="#">Condo </a></li>
+            <li><a href="#">Other </a></li>
+          </ul>
+        </div>
+        <!-- Twitter Feed -->
+        <div class="grid_3 tweet">
+          <h2>Twitter Feed</h2>
+          <div class="tweets">
+            <p> Loading Tweets... </p>
+            <ul id="tweet-list">
+            </ul>
+          </div>
+        </div>
+        <!-- FLCKR PHOTOS & Tag Cloud -->
+        <div class="grid_3">
+          <!--FLCKR PHOTOS-->
+          <div class="wrapper">
+            <div class="flickr">
+              <h2>Flickr Photos</h2>
+              <script  type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08"></script>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-2">
+    <div class="container_12">
+      <div class="wrapper">
+        <div class="grid_12">
+          <div class="policy">Real-Estate - responsive theme &copy; 2013 <a href="#">Privacy Policy</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
